@@ -1,6 +1,6 @@
 id=perl-nelshh
 name=Perl for Android
 version=5.32.0
-versionCode=27
+versionCode=29
 author=nelshh
 description=A static build of the latest Perl binaries for Android (aarch64)
