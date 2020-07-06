@@ -6,6 +6,12 @@ This Magisk module installs the latest stable version of perl to the target syst
 
 ## Change Log
 
+### v1.2 - 2020-07-06
+* Updated perl to v 5.32.0
+
+### v1.1 - 2020-06-10
+* Updated perl to v 5.30.3
+
 ### v1.0 - 2020-05-27
 * Initial release
 

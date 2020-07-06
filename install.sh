@@ -123,8 +123,8 @@ REPLACE="
 
 print_modname() {
   ui_print "*********************************************"
-  ui_print "     Perl for Android                     "
-  ui_print "         - v 5.30.2                           "
+  ui_print "     Perl for Android                        "
+  ui_print "         - v 5.32.0                          "
   ui_print "         - built by nelshh @ xda-developers  "
   ui_print "*********************************************"
 }
@@ -157,9 +157,9 @@ set_permissions() {
   find /data/perl -type f -exec chmod 755 {} \+;
   find /data/perl -type l -exec chmod 755 {} \+;
 
-  #ln -sf $MODPATH/system/lib64/perl5/5.30.2/aarch64-android/CORE $MODPATH/include/perl;
-  #ln -sf $MODPATH/system/lib64/perl5/5.30.2/aarch64-android/CORE/libperl.so $MODPATH/lib64/libperl.so;
-  #ln -sf $MODPATH/system/lib64/perl5/5.30.2/aarch64-android/CORE/libperl.so $MODPATH/lib/libperl.so;
+  #ln -sf $MODPATH/system/lib64/perl5/5.32.0/aarch64-android/CORE $MODPATH/include/perl;
+  #ln -sf $MODPATH/system/lib64/perl5/5.32.0/aarch64-android/CORE/libperl.so $MODPATH/lib64/libperl.so;
+  #ln -sf $MODPATH/system/lib64/perl5/5.32.0/aarch64-android/CORE/libperl.so $MODPATH/lib/libperl.so;
 
 
   #ui_print "[4/6] Installing to /system/etc..";
