@@ -1,0 +1,5 @@
+*.1 linguist-language=Shell
+*.3 linguist-language=Shell
+*.pl linguist-language=Shell
+*.h linguist-language=Shell
+*.pm linguist-language=Shell
